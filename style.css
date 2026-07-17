@@ -1,0 +1,296 @@
+/* =====================================================
+   Fake News Detection System
+   Custom Streamlit Styling
+===================================================== */
+
+
+/* Main App Background */
+
+.stApp {
+
+    background: linear-gradient(
+        135deg,
+        #f5f7fa,
+        #c3cfe2
+    );
+
+}
+
+
+/* Main Title */
+
+.main-title {
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+    text-align: center;
+
+    color: #1f2937;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Subtitle */
+
+.subtitle {
+
+    text-align: center;
+
+    font-size: 20px;
+
+    color: #4b5563;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+/* Cards */
+
+.card {
+
+    background: rgba(255,255,255,0.8);
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+    0px 8px 20px rgba(0,0,0,0.12);
+
+    margin: 15px 0;
+
+}
+
+
+
+/* Metric Cards */
+
+[data-testid="metric-container"] {
+
+    background:
+
+    rgba(255,255,255,0.85);
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow:
+
+    0px 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+
+
+    background:
+
+    linear-gradient(
+        180deg,
+        #667eea,
+        #764ba2
+    );
+
+}
+
+
+
+section[data-testid="stSidebar"] * {
+
+    color:white;
+
+}
+
+
+
+/* Buttons */
+
+
+.stButton button {
+
+
+    width:100%;
+
+    border-radius:15px;
+
+    height:50px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+
+    background:
+
+    linear-gradient(
+        90deg,
+        #667eea,
+        #764ba2
+    );
+
+
+    color:white;
+
+
+    border:none;
+
+
+    transition:0.3s;
+
+}
+
+
+
+.stButton button:hover {
+
+
+    transform:scale(1.03);
+
+
+}
+
+
+
+/* Text Area */
+
+
+textarea {
+
+
+    border-radius:15px !important;
+
+
+}
+
+
+
+/* Prediction Result */
+
+
+.real {
+
+
+    color:#16a34a;
+
+    font-size:35px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+.fake {
+
+
+    color:#dc2626;
+
+    font-size:35px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+/* Progress Bar */
+
+
+.stProgress > div > div {
+
+
+    height:15px;
+
+    border-radius:10px;
+
+
+}
+
+
+
+/* Dataframe */
+
+
+[data-testid="stDataFrame"] {
+
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+
+}
+
+
+
+/* Info Box */
+
+
+.stAlert {
+
+
+    border-radius:15px;
+
+
+}
+
+
+
+/* Footer */
+
+
+.footer {
+
+
+    text-align:center;
+
+    color:#6b7280;
+
+    font-size:15px;
+
+    margin-top:40px;
+
+
+}
+
+
+
+/* Mobile Responsive */
+
+
+@media(max-width:768px){
+
+
+    .main-title {
+
+
+        font-size:30px;
+
+
+    }
+
+
+    .subtitle {
+
+
+        font-size:16px;
+
+
+    }
+
+
+}
